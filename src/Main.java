@@ -15,7 +15,7 @@ public class Main {
         Horse horse3 = new Horse("horse 32134","F","562kg","26mes");
         Farm farm1 = new Farm("Bishkek mal bazaar","OOSO Dordoi",new Sheep[]{sheep1,sheep2,sheep3},new Cow[]{cow1,cow2,cow3,cow4,cow5},new Horse[]{horse1,horse2});
         Farm farm2 = new Farm("Naryn mal bazaar","OOSO Ko4kor",new Sheep[]{sheep4},new Cow[]{cow6},new Horse[]{horse3});
-        System.out.println(farm1);
-        System.out.println(farm2);
+        System.out.println(farm1.toString());
+        System.out.println(farm2.toString());
     }
 }
